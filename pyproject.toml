@@ -1,0 +1,25 @@
+[project]
+name = "pdf-merge-cli"
+version = "0.1.0"
+description = "Merge multiple PDF files into one from the command line."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "Jefferson Gonçalves", email = "gerson.simao.92@gmail.com" }]
+dependencies = ["pypdf"]
+keywords = ["pdf", "merge", "cli"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Topic :: Utilities",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+pdfmerge = "pdf_merge_cli.cli:main"
+
+[build-system]
+requires = ["setuptools>=69.3"]
+build-backend = "setuptools.build_meta"
