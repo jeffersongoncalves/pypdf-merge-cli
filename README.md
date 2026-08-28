@@ -1,3 +1,5 @@
+![pdf-merge-cli](banners/pdf-merge-cli.png)
+
 # pdf-merge-cli
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
