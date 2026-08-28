@@ -1,4 +1,4 @@
-![pypdf-merge-cli](banners/pdf-merge-cli.png)
+![pypdf-merge-cli](banners/pypdf-merge-cli.png)
 
 # pypdf-merge-cli
 
