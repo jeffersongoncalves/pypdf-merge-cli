@@ -1,6 +1,6 @@
-![pdf-merge-cli](banners/pdf-merge-cli.png)
+![pypdf-merge-cli](banners/pdf-merge-cli.png)
 
-# pdf-merge-cli
+# pypdf-merge-cli
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
@@ -18,8 +18,8 @@ Requires Python 3.9+.
 ## Usage
 
 ```bash
-pdfmerge a.pdf b.pdf c.pdf                  # writes merged.pdf
-pdfmerge a.pdf b.pdf -o combined.pdf        # explicit output path
+pypdfmerge a.pdf b.pdf c.pdf                  # writes merged.pdf
+pypdfmerge a.pdf b.pdf -o combined.pdf        # explicit output path
 ```
 
 | Argument | Required | Description |

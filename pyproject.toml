@@ -1,5 +1,5 @@
 [project]
-name = "pdf-merge-cli"
+name = "pypdf-merge-cli"
 version = "0.1.0"
 description = "Merge multiple PDF files into one from the command line."
 readme = "README.md"
@@ -18,7 +18,7 @@ classifiers = [
 ]
 
 [project.scripts]
-pdfmerge = "pdf_merge_cli.cli:main"
+pypdfmerge = "pdf_merge_cli.cli:main"
 
 [build-system]
 requires = ["setuptools>=69.3"]

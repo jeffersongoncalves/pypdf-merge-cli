@@ -17,7 +17,7 @@ def merge(pdfs: list[Path], output: Path) -> int:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(prog="pdfmerge", description="Merge multiple PDF files into one.")
+    parser = argparse.ArgumentParser(prog="pypdfmerge", description="Merge multiple PDF files into one.")
     parser.add_argument("pdfs", type=Path, nargs="+", help="PDF files to merge, in order")
     parser.add_argument("-o", "--output", type=Path, default=Path("merged.pdf"), help="Output PDF path (default: merged.pdf)")
     args = parser.parse_args()
